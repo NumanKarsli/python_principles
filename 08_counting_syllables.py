@@ -7,7 +7,6 @@ def count(string):
             
     return sayac+1
 
-
 # naive solution
 def count(word):
     syllables = 1
@@ -16,10 +15,5 @@ def count(word):
             syllables = syllables + 1
     return syllables
 
-# using the count method
-def count(word):
-    return word.count("-") + 1
 
-# using split
-def count(word):
-    return len(word.split("-"))
+# Numan burayı değiştirdi
