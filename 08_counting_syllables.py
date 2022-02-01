@@ -17,3 +17,4 @@ def count(word):
 
 
 # Numan burayı değiştirdi
+#Bursaıda github'dan değiştirildi
