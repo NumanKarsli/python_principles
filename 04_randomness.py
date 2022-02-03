@@ -19,6 +19,11 @@ Mesela, random_number() fonksiyonu ardarda çağrıldığında mesela 42 döner,
 
 
 from random import randint
-
 def random_number():
     return randint(1, 100)
+
+"""----------------------------------------------------------------------------"""
+
+import random
+def random_number():
+    return random.randint(1, 100)

@@ -26,4 +26,10 @@ def only_ints(num1, num2):
         print(False)
 
 
-only_ints(1, "2")
+def only_ints(a, b):
+    return type(a) == type(b) == int
+
+"""----------------------------------------------------------------------------"""
+
+def only_ints(a, b):
+    return type(a) == int and type(b) == int

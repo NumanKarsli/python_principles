@@ -23,3 +23,12 @@ def mid(text):
         return text[int((len(text) - 1) / 2)]
     else:
         return ""
+
+"""----------------------------------------------------------------------------"""
+
+# this approach uses // which is integer division in Python 3
+# alternatively, use / and int() in combination.
+def mid(string):
+    if len(string) % 2 == 0:
+        return ""
+    return string[len(string)//2]
